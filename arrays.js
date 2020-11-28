@@ -35,5 +35,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars));
 
 function removeElementFromBeginningOfArray(array){
-  
+  const array = [...array.shift()];
+  return array;
 }
+console.log(removeElementFromBeginningOfArray(chocolateBars));
