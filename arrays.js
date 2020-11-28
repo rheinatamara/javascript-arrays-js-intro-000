@@ -37,4 +37,3 @@ console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars));
 function removeElementFromBeginningOfArray(array){
   
 }
-
