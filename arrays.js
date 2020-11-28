@@ -40,3 +40,9 @@ function removeElementFromBeginningOfArray(array){
   return newArray;
 }
 console.log(removeElementFromBeginningOfArray(chocolateBars));
+
+function destructivelyRemoveElementFromEndOfArray(array){
+  array.pop();
+  return array;
+}
+console.log(destructivelyRemoveElementFromEndOfArray(chocolateBars));
