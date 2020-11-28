@@ -36,7 +36,7 @@ console.log(destructivelyRemoveElementFromBeginningOfArray(chocolateBars));
 
 function removeElementFromBeginningOfArray(array){
   let newArr = [...array]
-  newArr.slice(0);
+  newArr.slice(0,1);
   return newArr;
 }
 console.log(removeElementFromBeginningOfArray(chocolateBars));
